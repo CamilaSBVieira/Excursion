@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    font-family: Verdana;
+    text-align: center;
+  }
+  .header-title {
+    font-size: 50px;
+    font-weight: normal;
+  }
+  .title {
+    color: white;
+  }
+  .download-button {
+    background-color: #303233;
+    border-radius: 12px;
+    color: aquamarine;
+   
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5rem;
+    padding: 1rem;
+    transition: 0.4s ease-in;
+  }
+  .download-button span {
+    font-size: 12px;
+  }
+  .download-button:hover {
+    background-color: #494C4D;
+    cursor: pointer;
+  }
+  .teaser {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .description-title {
+    font-size: 42px;
+    font-weight: 300;
+  }
+  .description-paragraph {
+    color: gray;
+    font-size: 21px;
+  }
+  .description-image {
+    height: auto;
+    margin: 0 auto;
+    width: 80vw;
+  }
+  .description-image img {
+    height: auto;
+    width: 100%;
+  }
+  .icon-phone {
+    margin-top: 1rem;
+    height: 100px;
+    width: auto;
+    display: block;
+    background-image: url("https://content.codecademy.com/programs/freelance-one/excursion/images/phone.png?_gl=1*1du1dmp*_ga*MjA1MDU0NTUzMS4xNjYwMzIxNDM5*_ga_3LRZM6TM9L*MTY2MDMyMTM3OC4xLjEuMTY2MDMyNDE3Ny42MA..");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .bottom-title {
+    font-size: 42px;
+    font-weight: normal;
+  }
+  .footer {
+    color: grey;
+    text-align: right;
+  }
